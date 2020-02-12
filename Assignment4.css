@@ -1,0 +1,36 @@
+title{
+  background-color: #8C8C8C;
+
+}
+p{ color:#EF5B00;
+  background-color: #8C8C8C;
+text-align: center;
+font-family: sans-serif;
+}
+
+h1{
+  color:#EF5B00
+}
+
+h1{ font-style: italic;
+}
+a {
+ color: #FF0000;
+}
+a:hover{
+ color:#EFD300;
+}
+a{
+  color:#00EF5B
+  }
+  #navigation{
+    background-color: #D300EF
+  }
+.spanstyle{
+  color:#D300EF
+}
+.imgbox{border:2px solid #ff0000;
+}
+body{
+background-image: url(sonic.jpg);
+}
