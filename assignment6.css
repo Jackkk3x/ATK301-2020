@@ -1,0 +1,118 @@
+body {
+background-image: url(a62.png);
+background-repeat: repeat;
+background-position: top left;
+}
+
+.imagefloat {
+  float: left;
+  padding: 10px;
+  border: 3px solid black;
+  margin: 10px;
+  grid-column: span 3;
+}
+
+
+#wrapper{
+  border: 3px solid black;
+  background-color: #ffffff;
+  width: 960px;
+  margin: 2em auto;
+  padding: 5px;
+  grid-template-columns: repeat (12, 1fr);
+}
+
+.white {
+  color: white;
+}
+
+h1 {
+  grid-column: span 12;
+  background-color: black;
+  font-family: Helvetica;
+  font-weight:normal;
+  border: 10px solid black;
+  color:#ffffff;
+  padding: 5px;
+  margin-top: 0px;
+}
+
+h2 {
+  font-weight: normal;
+font-family: Helvetica;
+border-bottom: 3px solid black;
+width: 70%;
+grid-column: span 9;
+}
+
+nav ul {
+  list-style-type:none;
+border: 0px solid red;
+margin: 0;
+padding: 0;
+}
+
+nav li {
+  border: 1px solid blue;
+  width: 175px;
+margin-bottom: 10px;
+padding: 0px;
+background-color: red;
+}
+
+nav li a {
+  display: block;
+border: 1px solid yellow;
+padding: 10px;
+text-decoration: none;
+color: white;
+background-color:red;
+grid-column: span 3;
+}
+
+
+nav li a:hover {
+  background-color: darkred;
+  color: blue;
+}
+
+main {
+  font-weight: bold;
+  font-family: Georgia;
+  text-align: justify;
+  color: red;
+  grid-column: span 9;
+}
+
+main a:link {
+ color: red;
+}
+
+main a:visited {
+ color: red;
+ text-decoration: normal;
+}
+
+main a:active {
+ color: red;
+}
+
+main a:hover {
+ color: red;
+ text-decoration: underline;
+}
+
+footer {
+  background-color: red;
+grid-column: span 12;
+font-family: Verdana;
+font-style: italic;
+border: 1px solid black;
+border-top: 3px solid black;
+}
+aside{text-align: right;
+
+}
+nav{
+  text-align: left;
+}
