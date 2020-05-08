@@ -1,4 +1,4 @@
-body {background-color: rgba(112, 198, 12, 0.28);
+body {background-color: rgba(198, 191, 12, 0.28);
     margin: auto;
     margin-top: 10px;
     border: 2px solid black;
@@ -15,13 +15,11 @@ aside {
     width: 40%;
     float: right;
     background-color: white;
-    height: 467px;
+    height: 362px;
     text-align: center;
 }
 
-figcaption {
-    padding: 4px;
-}
+
 
 .asidetext {
     padding: 6px;
@@ -66,7 +64,7 @@ nav a:hover {
     width: 100%;
     font-size: 100%;
   }
-    
+
     aside {
     clear: both;
     width: 100%;
