@@ -1,0 +1,86 @@
+body {background-color: rgba(12, 198, 155, 0.28);
+    margin: auto;
+    margin-top: 10px;
+    border: 2px solid black;
+    width: 80%;
+    text-align: center;
+}
+
+header{
+    font-family:cursive;
+    font-size: 120%;
+}
+
+article {
+    background-color: white;
+    width: 60%;
+    float:left;
+}
+
+aside {
+    width: 40%;
+    float: right;
+    background-color: white;
+    height: 469px;
+    text-align: center;
+}
+
+figcaption {
+    padding: 4px;
+}
+
+.asidetext {
+    padding: 6px;
+}
+
+footer {
+    clear: both;
+    background-color: #D6D6D6;
+    padding: 4px;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #338;
+}
+
+/* Style the topnav links */
+nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 80%;
+}
+
+p.footertext {
+    font-size: 80%;
+}
+
+/* Change color on hover */
+nav a:hover {
+  background-color: #333;
+  color: white;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  nav a {
+    float: none;
+    width: 100%;
+    font-size: 100%;
+  }
+    
+    aside {
+    clear: both;
+    width: 100%;
+    height: inherit;
+
+}
+    article {
+    width:100%;
+    text-align: center;
+}
+}
